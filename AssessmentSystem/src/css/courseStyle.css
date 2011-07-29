@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+body{
+font-size:10pt;
+}
+#content{
+float:none;
+}
+#newOutcomeField{
+text-align:center;
+
+}
+#courseTable
+{
+text-align:left;
+margin:auto;
+}
+
+.tableTitles
+{
+text-align:left;
+font-family:"Times New Roman", Times, serif;
+
+}
+table
+{
+width:100%;
+}
+table tr 
+{
+width:100%;
+}
+.rightButton{
+text-align:right;
+width:150px;
+}

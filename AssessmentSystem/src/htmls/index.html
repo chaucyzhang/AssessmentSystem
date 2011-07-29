@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Assessment System</title>
+<script type="text/javascript" src="/js/jquery-1.5.1.js">
+</script>
+<script type="text/javascript" src="/js/jquery-ui-1.8.11.custom.min.js">
+</script>
+<script type="text/javascript" src="/js/jquery.dataTables.js">
+</script>
+<script type="text/javascript" src="/js/index.js">
+</script>
+<link href="/css/smoothness/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" />
+<link href="/css/demo_table_jui.css" rel="stylesheet" type="text/css" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<div id="wrapper">
+
+	<div id="header">
+
+		<div id="logo">
+
+			<h1><a href="#">Assessment System</a></h1>
+
+		</div>
+
+		<div id="menu">
+			<ul>
+<li><a href="/" class="active">Home</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	</div>
+
+	<!-- end #header -->
+
+	<div id="page">
+
+		<div id="page-bgtop">
+
+			<div id="page-bgbtm">
+
+				
+
+				<!-- end #content -->
+			<div id="logPanels">
+			<div id="log-bgtop">
+
+				<div id="log-bgbtm">
+				
+   <div id="loginPanel">
+   <h3>Login</h3>
+Username:<input id="username" type="text" /><br />
+Password:<input id="password" type="password" /><br />
+<input id="loginBtn" type="button" class="button" value="Login" />
+</div>
+<div id="logoutPanel">
+<label id="greetingDiv"></label>
+<input id="logoutBtn" type="button" class="button" value="logout"/>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+
+					<div class="post">
+<div id="programCoverDiv">
+The existing programs:
+<div id="programsDiv">
+<table id="programDataTable">
+<thead>
+</thead>
+<tbody id="programsTableTBody">
+</tbody>
+</table>
+</div>
+</div>
+
+					</div>
+
+				</div>
+
+				<div id="sidebar">
+
+				<div id="sidebar-bgtop">
+				<div id="sidebar-bgbtm">
+	<ul>
+<li>
+
+<div class="search">
+<input id="searchProgramBox" type="text"/>
+<input id="searchProgramBtn" type="button"  value="Search Program" onclick="javascript:window.open('/programResultPage','_self')"/>
+</div>
+</li>
+<li>
+<div class="search">
+
+<input id="searchCourseBox" type="text"/>
+<input id="searchCourseBtn" type="button" value="Search Course" onclick="javascript:window.open('/courseResultPage','_self')"/>
+</div>
+</li>
+</ul>
+		<ul id="adminLinks">
+						<li>
+							<ul>
+								<li><a href="javascript:void(0)" id="addProgramLink" >Add Program</a>
+</li>
+<li><a href="javascript:void(0)" id="addCourseLink">Add Course</a>
+</li>
+<li><a href="javascript:void(0)" id="openAccountLink">Open New Account</a>
+</li>
+<li><a href="javascript:void(0)" id="manageAccountLink" onclick="javascript:window.open('/allUsersPage','_self')">Manage Account</a>
+</li>
+
+							</ul>
+						</li>
+					</ul>
+				
+			
+				
+
+				</div>
+
+				</div>
+
+				</div>
+
+				<!-- end #sidebar -->
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- end #page -->
+
+
+
+<div id="footer-wrapper">
+
+	<div id="footer">
+
+		<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+
+	</div>
+
+</div>
+<div id="newProgramField">
+Program Name: <br /><input id="programName" type="text"/><br />
+Description:<br/><textarea cols="30" rows="5" id="programDes"></textarea><br />
+<input id="addProgramBtn" type="button" class="button" value="Add"/>
+<input id="cancelAddProgramBtn" type="button" class="button" value="Cancel"/>
+</div>
+
+<div id="newCourseField">
+Course Name: <br /><input id="courseName" type="text"/><br />
+Description:<br/><textarea cols="30" rows="5" id="courseDes"></textarea><br />
+<input id="addCourseBtn" type="button" class="button" value="Add"/>
+<input id="cancelAddCourseBtn" type="button" class="button" value="Cancel"/>
+</div>
+
+
+<div id="accountBox">
+Username:<br /><input type="text" id="newUsername" /><br />
+Password:<br /><input type="password" id="newPassword" /><br />
+User type:<br />
+<select id="usertypeDropdown">
+  <option id="admintype" value="admin">Administrator</option>
+  <option id="facultytype" value="faculty">Faculty</option>                         
+  </select><br />
+<input type="button" class="button" id="openAccountSubmitBtn" value="Submit" />
+</div>
+</body>
+
+</html>

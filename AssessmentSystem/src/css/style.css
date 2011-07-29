@@ -1,0 +1,431 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #C9C299 url(../images/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #9DAAB2;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #0D6B82;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 960px;
+	height:800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/** HEADER */
+#loginPanel{
+
+}
+#logoutPanel{
+
+}
+#greetingDiv{
+}
+#newProgramField{
+text-align:center;
+}
+#newCourseField{
+text-align:center;
+}
+#header {
+	width: 950px;
+	height: 141px;
+	margin: 0px auto;
+}
+
+/** LOGO */
+
+#logo {
+	height: 73px;
+	padding-top: 20px;
+}
+
+#logo h1 {
+	margin: 0px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo p {
+	padding-left: 3px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #BABABA;
+}
+
+#logo a {
+	color: #BABABA;
+}
+
+/** MENU */
+
+#menu {
+	height: 48px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-right: 1px;
+}
+
+#menu a {
+	display: block;
+	height: 28px;
+	padding: 14px 10px 0px 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu span {
+	display: block;
+	height: 28px;
+	padding: 14px 10px 0px 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+#menu a:hover {
+	text-decoration: None;
+	background: #000000;
+}
+#menu span:hover {
+	text-decoration: None;
+	
+}
+
+
+#menu .active {
+	background: #000000;
+}
+
+/* Search */
+
+.search {
+	float: right;
+	width: 270px;
+	padding: 0px 0px 0px 0px;
+}
+
+.search form {
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+.search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#searchCourseBox {
+	width: 130px;
+	padding: 6px 5px 2px 5px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 9px Arial, Helvetica, sans-serif;
+	color: #5D781D;
+}
+
+#searchCourseBtn {
+	width: 110px;
+	height: 24px;
+	border: none;
+	background: #040F12;
+	color: #FFFFFF;
+	font-size:9px;
+}
+
+#searchProgramBox {
+	width: 130px;
+	padding: 6px 5px 2px 5px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 9px Arial, Helvetica, sans-serif;
+	color: #5D781D;
+}
+
+#searchProgramBtn {
+	width: 110px;
+	height: 24px;
+	border: none;
+	background: #040F12;
+	color: #FFFFFF;
+	font-size:9px;
+}
+
+/* Page */
+
+#page {
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0px;
+}
+
+#page-bgtop {
+	padding: 5px 0px;
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+
+#content {
+	float:left;
+	width:550px;
+	margin:-20px auto 0px auto;
+	padding:0px 0px 0px 0px;
+
+}
+
+.post {
+	margin-bottom: 15px;
+	margin-left:-100px;
+	
+		
+}
+#programDataTable{
+width:100%;
+}
+
+#programDataTable tbody tr{
+	cursor:pointer;
+}
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	height: 38px;
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #FFFFFF;
+}
+
+.post .title a {
+	color: #FFFFFF;
+	border: none;
+}
+
+.post .meta {
+	width: 400px;
+	margin-top: -10px;
+	padding: 5px 20px 5px 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #3D4F5C;
+}
+
+.post .meta a {
+	color: #3D4F5C;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 280px;
+	margin:10px 0px 0px 0px;
+	padding:10px 0px 10px 0px;
+	color: #054A60;
+	text-align:center;
+	background: url(../images/post_bg.gif) top left no-repeat;
+}
+#logPanels {
+	width:280px;
+	float: right;
+	padding:10px 0px 10px 0px;
+	background: url(../images/post_bg.gif) top left no-repeat;
+	text-align:center;
+}
+
+
+#accountBox{
+text-align:center;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dashed #D1D1D1;
+	margin: 0px 30px;
+	border-left: none;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding-left: 30px;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #000000;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	color: #054A60;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #054A60;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/** FOOTER */
+
+#footer-wrapper {
+	background: url(../images/img02.jpg) repeat-x left top;
+	height: 50px;
+}
+#footer {
+	width: 950px;
+
+	margin: 0px auto;
+	background: url(../images/img03.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	color: #133D47;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #133D47;
+}
+
+#footer .legal {
+}
+
+#footer .links {
+}

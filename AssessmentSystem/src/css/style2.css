@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.title{
+text-align:center;
+}
+#loginPanel{
+margin-left:800px;
+margin-right:0px;
+}
+#logoutPanel{
+margin-left:1125px;
+margin-right:0px;
+}
+#greetingDiv{
+}
+#newProgramField{
+text-align:center;
+}
+#navigationbar ul{
+text-align:center;
+float:right;
+list-style-type: none;
+font-family: verdana, arial, Helvetica, sans-serif;
+}
